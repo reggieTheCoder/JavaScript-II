@@ -48,8 +48,8 @@ function getLength(arr, cb) {
 return cb(arr.length);
 }
 
-getLength(items, function(getLength) {
-  console.log(getLength);
+getLength(items, function(arrLength) {
+  console.log(arrLength);
 });
 
 function last(arr, cb) {
